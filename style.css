@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(219, 216, 216);
+    /* width: 250px; */
+    font-family: 'Bacasime Antique', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}    
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    align-content: center;
+    padding: 28px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main{
+    /* background-color: yellowgreen; */
+    width: 90vw;
+
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: tomato; */
+    height: 55vh;
+    width: 73vw;
+    margin: 130px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.picture{
+    width: 400px;
+    height: 55vh;
+}
+.myinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.hello{
+    font-size: 3em;    
+}
+.name{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Bacasime Antique', serif;
+}
+.about{
+    font-size: 2em;
+
+}
+.moreabout{
+    font-size: 1.5em;
+    /* font-family: 'Bacasime Antique', serif; */
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Caveat', cursive;
+}
+.button{
+    margin-top: 35px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 27px;
+    color: white;
+    background-color: darkslategray;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 3;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn1 button{
+    width: 100px;
+    color: white;
+    background-color: darkslategray;
+    font-weight: bold;
+    /* font-size: 17px; */
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.contactinfo{
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+    padding: 0 35px;
+    padding-top: 80px;
+    margin: 0px 40px;
+}
+.contactinfo h1{
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center; */
+    font-size: 40px;
+}
+.contactinfo form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactinfo form div input{
+    width: 20vw;
+    border-radius: 2px;
+    margin: 10px 0 0 0;
+    padding: 3px;
+}
+.description input{
+    height: 100px;
+}
+h1{
+    margin: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+.blogitem{
+    margin: 20px;
+}
+.blogcontainer{
+    margin: 20px 40px;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+
+}
+p{
+    font-family: 'Bacasime Antique', serif;
+
+}
+.btn-sm{
+    font-size: 10px;
+    width: 5em;
+}
+.intro h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.intro p{
+    font-family: 'Bacasime Antique', serif;
+    margin: 10px;
+
+}
+.intro{
+    margin: 30px 50px;
+}
+.skillcontainer{
+    padding: 12px ;
+
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 260px;
+    height: 6px;
+    background-color: red;
+    margin: 0 9px;
+    border: 1px solid black;
+}
+.hundred{
+    width: 250px;
+    height: 6px;
+    background-color: red;
+    margin: 0 9px;
+}
+.fifty{
+    width: 125px;
+    height: 6px;
+    background-color: red;
+    margin: 0 9px;
+}
+.quarter{
+    width: 65px;
+    height: 6px;
+    background-color: red;
+    margin: 0 9px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.sidebargo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+}
+.cross{
+    margin-left: 145px;
+}
+
+@media (max-width: 1200px) {
+/* *{
+    background-color: rgb(192, 113, 113);
+} 
+
+.sidebar{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}  */
+.mypic{
+    display: none;
+}
+.myinfo{
+    font-size: 10px;
+}
+.btn{
+    font-size: 10px;
+}
+}
